@@ -63,8 +63,6 @@ export const experiencesData = [
     Workp3:
       " 3. Collaborating with a colleague to build a dynamic live auction platform, allowing users to participate in live video call auctions and sell unique products, demonstrating teamwork and innovation. ",
     workp3link: "https://auction-malaktel.vercel.app/",
-    Workp4:
-      "  4. Managed the admin panel for product requests, showcasing strong organizational and decision-making abilities.",
 
     description:
       "My stack includes Solidity, React, Node.js, javaScript, Tailwind, Mongoose and MongoDB.   I'm open to full-time opportunities.",

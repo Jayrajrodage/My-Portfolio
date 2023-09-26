@@ -46,7 +46,7 @@ export default function Experience() {
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
               <p className="font-normal !mt-0">{item.location}</p>
-              {item.Workp1 && item.Workp2 && item.Workp3 && item.Workp4 && (
+              {item.Workp1 && item.Workp2 && item.Workp3 && (
                 <>
                   <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                     {item.Workp1}{" "}
@@ -77,9 +77,6 @@ export default function Experience() {
                     >
                       Link
                     </a>{" "}
-                  </p>
-                  <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
-                    {item.Workp4}
                   </p>
                 </>
               )}
