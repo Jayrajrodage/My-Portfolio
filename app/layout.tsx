@@ -10,8 +10,8 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Jayraj | Personal Portfolio",
-  description: "Jayraj is a full-stack developer with 6 years of experience.",
+  title: "Jayraj Portfolio",
+  description: "Jayraj is a full-stack developer and Blockchain developer.",
 };
 
 export default function RootLayout({
@@ -29,6 +29,10 @@ export default function RootLayout({
 
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
+            <link
+              rel="icon"
+              href="https://avatars.githubusercontent.com/u/106481127?v=4"
+            />
             <Header />
             {children}
             <Footer />
