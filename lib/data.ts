@@ -110,8 +110,8 @@ export const projectsData = [
     ],
     imageUrl: ECom,
     live: "https://e-commerce-app-jayraj.vercel.app/",
-    Github: "https://github.com/Jayrajrodage/E-Commerce-App-Frontend",
-    Github2: "https://github.com/Jayrajrodage/E-Commerce-App-backend",
+    Github: "https://github.com/Jayrajrodage/E-Commerce-App",
+    Github2: "",
   },
   {
     title: "CharityDAO",
@@ -160,6 +160,11 @@ export const Frontend = [
 export const Backend = [
   "Express",
   "Python",
+  "SQL",
+  "PrismaORM",
+  "GraphQL",
+  "Trpc",
+  "Docker",
   "Node.js",
   "Mongoose",
   "MongoDB",
