@@ -21,7 +21,7 @@ export default function About() {
       <p className="mb-3">
         Welcome to my
         <span className="font-medium"> portfolio!</span>, I'm a tech enthusiast
-        with a passion for technology and innovation, specializing in both{" "}
+        with a passion for innovation, specializing in both{" "}
         <span className="font-medium">
           Full Stack Development and Blockchain Technology
         </span>
