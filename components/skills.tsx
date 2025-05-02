@@ -2,7 +2,7 @@
 
 import React from "react";
 import SectionHeading from "./section-heading";
-import { Backend, Blockchain, Frontend, Tools } from "@/lib/data";
+import { Backend, DevOps, Frontend, Tools } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 
@@ -71,10 +71,10 @@ export default function Skills() {
         ))}
       </ul>
       <h1 className="flex justify-center font-mono font-bold text-2xl mt-3  mb-3">
-        Blockchain
+        DevOps
       </h1>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
-        {Blockchain.map((skill, index) => (
+        {DevOps.map((skill, index) => (
           <motion.li
             className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
             key={index}

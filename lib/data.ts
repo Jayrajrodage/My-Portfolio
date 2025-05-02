@@ -1,20 +1,15 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import Zomato from "@/public/Zomato.png";
 import ECom from "@/public/E-com.png";
-import Trust from "../assets/portfolio/charitableTrust.png";
-import Voting from "../assets/portfolio/Voting dapp.png";
-import Etherpay from "../assets/portfolio/EtherPay.png";
+import Lingo from "../assets/portfolio/Lingo.png";
+import TriggerX from "../assets/portfolio/Triggerx.png";
+import Uptime from "../assets/portfolio/Uptime.png";
 export const links = [
   {
     name: "Home",
     hash: "#home",
-  },
-  {
-    name: "About",
-    hash: "#about",
   },
   {
     name: "Projects",
@@ -63,15 +58,79 @@ export const experiencesData = [
     Workp3:
       " 3. Collaborating with a colleague to build a dynamic live auction platform, allowing users to participate in live video call auctions and sell unique products, demonstrating teamwork and innovation. ",
     workp3link: "https://auction-malaktel.vercel.app/",
-
     description:
       "My stack includes Solidity, React, Node.js, javaScript, Tailwind, Mongoose and MongoDB.   I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "04/2023 - present",
+    date: "04/2023 - 04/2025",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Uptime",
+    description:
+      "Uptime-: Create monitors, get downtime alerts, view logs, analytics, and publish customizable public status pages easily.",
+    tags: [
+      "React.js",
+      "Express.js",
+      "postgresql",
+      "Aws(lambda)",
+      "Tiny-bird(TimeseriesDB)",
+      "bullmq",
+      "redis",
+      "prismaORM",
+      "Typescript",
+      "Tailwind",
+      "nodemailer",
+      "stripe",
+      "zustand",
+      "Shadcn(ui)",
+      "tanstack-query",
+      "React-hook-form",
+    ],
+    imageUrl: Uptime,
+    live: "https://uptimely.top",
+    Github: "https://github.com/Jayrajrodage/uptime",
+    Github2: "",
+  },
+  {
+    title: "TriggerX",
+    description:
+      "TriggerX is a workflow automation platform like Zapier, streamlining tasks, boosting productivity, and integrating essential tools.",
+    tags: [
+      "Next.js",
+      "prismaORM",
+      "postgresql",
+      "Typescript",
+      "Tailwind",
+      "zustand",
+      "xyflow",
+      "React-hook-form",
+    ],
+    imageUrl: TriggerX,
+    live: "https://trigger-x-puce.vercel.app",
+    Github: "https://github.com/Jayrajrodage/TriggerX",
+    Github2: "",
+  },
+  {
+    title: "Duolingo-clone",
+    description:
+      "Interactive (Android, ios and web) platform for language learning with lessons, quizzes, and progress tracking",
+    tags: [
+      "Ionic",
+      "capacitor",
+      "Typescript",
+      "Supabase",
+      "Tailwind",
+      "Clerk for Auth",
+      "zustand(State Management)",
+      "Stripe",
+    ],
+    imageUrl: Lingo,
+    live: "https://duolingo-clone-jayraj.vercel.app",
+    Github: "https://github.com/Jayrajrodage/Duolingo-clone",
+    Github2: "",
+  },
   {
     title: "Zomato-Clone",
     description:
@@ -93,56 +152,6 @@ export const projectsData = [
     Github: "https://github.com/Jayrajrodage/Zomato-clone",
     Github2: "https://github.com/Jayrajrodage/Zomato-admin",
   },
-  {
-    title: "E-commerce",
-    description:
-      "Created a feature-rich E-commerce web app with user authentication, product filtering, search, profile management, and card payments, alongside admin functions for category and product management",
-    tags: [
-      "React",
-      "MongoDB",
-      "Mongoose ",
-      "Tailwind",
-      "css",
-      "Express.js",
-      "Recoil (For state Management)",
-      "Zod (for input validation)",
-      "Braintree (for payments)",
-    ],
-    imageUrl: ECom,
-    live: "https://e-commerce-app-jayraj.vercel.app/",
-    Github: "https://github.com/Jayrajrodage/E-Commerce-App",
-    Github2: "",
-  },
-  {
-    title: "CharityDAO",
-    description:
-      "CharityDAO is a decentralized autonomous organization (DAO) on the Ethereum blockchain that allows people to donate to a charity and vote on how the funds are used.",
-    tags: ["Solidity", "React", "Ether.js", "Remix.IDE"],
-    imageUrl: Trust,
-    live: "https://charitabletrust.vercel.app/",
-    Github: "https://github.com/Jayrajrodage/charitable-trust",
-    Github2: "",
-  },
-  {
-    title: "Voting Dapp",
-    description:
-      "This project is a web-based voting application that allows a chairperson to create and manage candidate data, and voters to cast their votes. The application uses React for the front-end, Solidity for the smart contract that runs on the Ethereum blockchain, and Ether.js to interact with the blockchain",
-    tags: ["Solidity", "React", "Ether.js", "Remix.IDE"],
-    imageUrl: Voting,
-    live: "https://charitabletrust.vercel.app/",
-    Github: "https://votingdapp-jayrajrodage.vercel.app/",
-    Github2: "",
-  },
-  {
-    title: "EtherPay",
-    description:
-      "EtherPay is a platform where you can safely send and store your crypto (ETH) with the help of MetaMask. You can save recipient addresses and view your recent transactions.",
-    tags: ["Solidity", "React", "Ether.js", "Remix.IDE"],
-    imageUrl: Etherpay,
-    live: "https://etherpay-jayrajrodage.vercel.app/",
-    Github: "https://github.com/Jayrajrodage/EtherPay",
-    Github2: "",
-  },
 ] as const;
 
 export const Frontend = [
@@ -150,31 +159,35 @@ export const Frontend = [
   "CSS",
   "JavaScript",
   "TypeScript",
+  "Ionic",
+  "Capacitor",
   "React",
   "Next.js",
   "Tailwind",
   "Recoil",
-  "zustand",
+  "Zustand",
 ] as const;
 
 export const Backend = [
-  "Express",
-  "Python",
-  "SQL",
-  "PrismaORM",
-  "GraphQL",
-  "Trpc",
-  "Docker",
   "Node.js",
-  "Mongoose",
+  "Kafka",
+  "Bullmq",
+  "Redis",
+  "Postgresql",
   "MongoDB",
+  "TimeseriesDB",
+  "TimescaleDB",
+  "Express",
+  "PrismaORM",
+  "Mongoose",
 ] as const;
 
-export const Blockchain = [
-  "Solidity",
-  "Truffle",
-  "HardHat",
-  "Ether.js",
-  "Web3.js",
+export const DevOps = [
+  "AWS",
+  "Docker",
+  "GitLab CI/CD",
+  "Prometheus",
+  "Grafana",
 ] as const;
+
 export const Tools = ["Git", "GitHub", "Postman", "npm", "VS code"] as const;

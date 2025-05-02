@@ -66,7 +66,11 @@ export default function Intro() {
         <span className="font-medium">Hello, I'm Jayraj.</span> I'm a{" "}
         <span className=" font-semibold ">
           <Typewriter
-            words={["full-Stack developer.", "Blockchain developer"]}
+            words={[
+              "full-Stack developer.",
+              "Backend developer.",
+              "Frontend developer.",
+            ]}
             loop={true}
             cursor
             cursorStyle="|"
@@ -74,8 +78,7 @@ export default function Intro() {
             typeSpeed={90}
           />
         </span>
-        <br />I enjoy building{" "}
-        <span className="italic">Decentralized apps & Web apps</span>.
+        <br />I enjoy building <span className="italic">Web apps</span>.
       </motion.h1>
 
       <motion.div
