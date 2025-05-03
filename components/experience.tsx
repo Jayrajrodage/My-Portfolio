@@ -28,7 +28,6 @@ export default function Experience() {
                 boxShadow: "none",
                 border: "1px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
-                padding: "1.3rem 2rem",
               }}
               contentArrowStyle={{
                 borderRight:
@@ -44,44 +43,30 @@ export default function Experience() {
                 fontSize: "1.5rem",
               }}
             >
-              <h3 className="font-semibold capitalize">{item.title}</h3>
+              <h3 className="font-bold text-2xl capitalize">{item.title}</h3>
               <p className="font-normal !mt-0">{item.location}</p>
-              {item.Workp1 && item.Workp2 && item.Workp3 && (
-                <>
-                  <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
-                    {item.Workp1}{" "}
-                    <a
-                      className="underline font-mono font-semibold"
-                      target="_blank"
-                      href={item.workp1link}
-                    >
-                      Link
-                    </a>
-                  </p>
-                  <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
-                    {item.Workp2}{" "}
-                    <a
-                      className="underline font-mono font-semibold"
-                      target="_blank"
-                      href={item.workp2link}
-                    >
-                      Link
-                    </a>
-                  </p>
-                  <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
-                    {item.Workp3}
-                    <a
-                      className="underline font-mono font-semibold"
-                      target="_blank"
-                      href={item.workp3link}
-                    >
-                      Link
-                    </a>{" "}
-                  </p>
-                </>
-              )}
+              <>
+                <p className="!mt-1 !font-normal text-gray-800 dark:text-white/90">
+                  {item.Workp1}{" "}
+                </p>
+                <p className="!mt-1 !font-normal text-gray-800 dark:text-white/90">
+                  {item.Workp2}{" "}
+                </p>
+                <p className="!mt-1 !font-normal text-gray-800 dark:text-white/90">
+                  {item.Workp3}
+                </p>{" "}
+                <p className="!mt-1 !font-normal text-gray-800 dark:text-white/90">
+                  {item.Workp4}
+                </p>{" "}
+                <p className="!mt-1 !font-normal text-gray-800 dark:text-white/90">
+                  {item.Workp5}
+                </p>{" "}
+                <p className="!mt-1 !font-normal text-gray-800 dark:text-white/90">
+                  {item.Workp6}
+                </p>{" "}
+              </>
 
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+              <p className="!mt-1 !font-normal text-gray-800 dark:text-white/90">
                 {item.description}
               </p>
             </VerticalTimelineElement>

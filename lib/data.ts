@@ -2,7 +2,6 @@ import React from "react";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import Zomato from "@/public/Zomato.png";
-import ECom from "@/public/E-com.png";
 import Lingo from "../assets/portfolio/Lingo.png";
 import TriggerX from "../assets/portfolio/Triggerx.png";
 import Uptime from "../assets/portfolio/Uptime.png";
@@ -12,16 +11,16 @@ export const links = [
     hash: "#home",
   },
   {
+    name: "Experience",
+    hash: "#experience",
+  },
+  {
     name: "Projects",
     hash: "#projects",
   },
   {
     name: "Skills",
     hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
   },
   {
     name: "Contact",
@@ -34,12 +33,12 @@ export const experiencesData = [
     title: "Graduated From Bigce Solapur",
     location: "Solapur, Maharashtra",
     Workp1: "",
-    workp1link: "",
     Workp2: "",
-    workp2link: "",
     Workp3: "",
-    workp3link: "",
     Workp4: "",
+    Workp5: "",
+    Workp6: "",
+    Workp7: "",
     description: "I graduated from Bigce Solapur. with 8.65 CGPA.",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
@@ -49,19 +48,21 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "MalakTel (Remote)",
     Workp1:
-      " 1. Developed and launched  the official ERC20 token, MAAT (Malak Token), for company payments on the Polygon blockchain.",
-    workp1link:
-      "https://polygonscan.com/token/0xEA3b5Cf8cC27925FcD151972b4D2f3dE53eD0C70",
+      " 1.Led the end-to-end development of e-commerce MVP, integrating live auction, real-time bidding, core e-commerce functionality, and dual payment systems (Crypto/Card) that acquired 10+ early adopters within 1 week.",
     Workp2:
-      " 2. Successfully designed and launched multiple websites, including the company's official site and a crypto-price and news platform, highlighting web development skills.",
-    workp2link: "https://malaktel-official.com/",
+      " 2. Built a seller dashboard to manage products, auctions, bid activity, customer history, and order tracking, resulting in smoother operations during testing.",
     Workp3:
-      " 3. Collaborating with a colleague to build a dynamic live auction platform, allowing users to participate in live video call auctions and sell unique products, demonstrating teamwork and innovation. ",
-    workp3link: "https://auction-malaktel.vercel.app/",
+      " 3. Developed an LMS and school management system from scratch with features like live/recorded classes, school Onboarding, and real-time teacher–student chat. It was pilot-tested in 5 schools.",
+    Workp4:
+      " 4. Built dashboard for educators to manage classes, chats, emails, and courses - whether teaching independently or as part of a school - that support both B2C and institutional use.",
+    Workp5:
+      " 5. Developed a flexible school admin panel with role-based access, student approvals, and calendar/email management.",
+    Workp6:
+      " 6. Built a freelancing platform with job posting, profile creation, application flow, payments, and real-time messaging — tested by 15 real users.",
     description:
-      "My stack includes Solidity, React, Node.js, javaScript, Tailwind, Mongoose and MongoDB.   I'm open to full-time opportunities.",
+      "Tech-: Ionic, React, Capacitor, Express.js, Firebase Realtime DB, MongoDB, AWS S3, Elastic Beanstalk, Stripe, NowPayments, BunnyCDN",
     icon: React.createElement(FaReact),
-    date: "04/2023 - 04/2025",
+    date: "04/2023 - 04/2025 (2 years)",
   },
 ] as const;
 
