@@ -33,12 +33,6 @@ export const experiencesData = [
     title: "Graduated From Bigce Solapur",
     location: "Solapur, Maharashtra",
     Workp1: "",
-    Workp2: "",
-    Workp3: "",
-    Workp4: "",
-    Workp5: "",
-    Workp6: "",
-    Workp7: "",
     description: "I graduated from Bigce Solapur. with 8.65 CGPA.",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
@@ -48,17 +42,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "MalakTel (Remote)",
     Workp1:
-      " 1.Led the end-to-end development of e-commerce MVP, integrating live auction, real-time bidding, core e-commerce functionality, and dual payment systems (Crypto/Card) that acquired 10+ early adopters within 1 week.",
-    Workp2:
-      " 2. Built a seller dashboard to manage products, auctions, bid activity, customer history, and order tracking, resulting in smoother operations during testing.",
-    Workp3:
-      " 3. Developed an LMS and school management system from scratch with features like live/recorded classes, school Onboarding, and real-time teacher–student chat. It was pilot-tested in 5 schools.",
-    Workp4:
-      " 4. Built dashboard for educators to manage classes, chats, emails, and courses - whether teaching independently or as part of a school - that support both B2C and institutional use.",
-    Workp5:
-      " 5. Developed a flexible school admin panel with role-based access, student approvals, and calendar/email management.",
-    Workp6:
-      " 6. Built a freelancing platform with job posting, profile creation, application flow, payments, and real-time messaging — tested by 15 real users.",
+      " Led the development of 3 MVPs from scratch — including real-time auction, Lms, and freelancing platforms. Shipped fast, handled everything end-to-end, and attracted 10+ early adopters within the first week of release.",
     description:
       "Tech-: Ionic, React, Capacitor, Express.js, Firebase Realtime DB, MongoDB, AWS S3, Elastic Beanstalk, Stripe, NowPayments, BunnyCDN",
     icon: React.createElement(FaReact),
@@ -70,7 +54,7 @@ export const projectsData = [
   {
     title: "Uptime",
     description:
-      "Uptime-: Create monitors, get downtime alerts, view logs, analytics, and publish customizable public status pages easily.",
+      "Uptime-: Create api monitors, get downtime alerts, view logs, analytics, and publish customizable public status pages easily.",
     tags: [
       "React.js",
       "Express.js",

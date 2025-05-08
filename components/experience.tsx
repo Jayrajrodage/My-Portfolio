@@ -49,23 +49,7 @@ export default function Experience() {
                 <p className="!mt-1 !font-normal text-gray-800 dark:text-white/90">
                   {item.Workp1}{" "}
                 </p>
-                <p className="!mt-1 !font-normal text-gray-800 dark:text-white/90">
-                  {item.Workp2}{" "}
-                </p>
-                <p className="!mt-1 !font-normal text-gray-800 dark:text-white/90">
-                  {item.Workp3}
-                </p>{" "}
-                <p className="!mt-1 !font-normal text-gray-800 dark:text-white/90">
-                  {item.Workp4}
-                </p>{" "}
-                <p className="!mt-1 !font-normal text-gray-800 dark:text-white/90">
-                  {item.Workp5}
-                </p>{" "}
-                <p className="!mt-1 !font-normal text-gray-800 dark:text-white/90">
-                  {item.Workp6}
-                </p>{" "}
               </>
-
               <p className="!mt-1 !font-normal text-gray-800 dark:text-white/90">
                 {item.description}
               </p>

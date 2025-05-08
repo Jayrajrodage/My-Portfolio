@@ -63,22 +63,12 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-medium">Hello, I'm Jayraj.</span> I'm a{" "}
-        <span className=" font-semibold ">
-          <Typewriter
-            words={[
-              "full-Stack developer.",
-              "Backend developer.",
-              "Frontend developer.",
-            ]}
-            loop={true}
-            cursor
-            cursorStyle="|"
-            cursorColor="black"
-            typeSpeed={90}
-          />
+        <span className="font-medium">Hello, I'm a Full-Stack Developer.</span>
+        <br />
+        <span className="italic">
+          I develop scalable web applications end to end
         </span>
-        <br />I enjoy building <span className="italic">Web apps</span>.
+        .
       </motion.h1>
 
       <motion.div
