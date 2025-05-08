@@ -65,8 +65,8 @@ export default function Intro() {
       >
         <span className="font-medium">Hello, I'm a Full-Stack Developer.</span>
         <br />
-        <span className="italic">
-          I develop scalable web applications end to end
+        <span className="font-medium italic">
+          I develop scalable web apps end to end
         </span>
         .
       </motion.h1>
