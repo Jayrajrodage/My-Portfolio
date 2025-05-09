@@ -170,7 +170,7 @@ export const Backend = [
 export const DevOps = [
   "AWS",
   "Docker",
-  "GitLab CI/CD",
+  "Github CI/CD",
   "Prometheus",
   "Grafana",
 ] as const;
