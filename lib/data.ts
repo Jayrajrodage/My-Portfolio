@@ -42,7 +42,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "MalakTel (Remote)",
     Workp1:
-      " Led the development of 3 MVPs from scratch — including real-time auction, Lms, and freelancing platforms. Shipped fast, handled everything end-to-end, and attracted 10+ early adopters within the first week of release.",
+      " Led the development of 3 MVPs from scratch — including real-time auction, Lms, and freelancing platforms. Beyond coding, I also handled demos, pitched to customers, and resolved customer issues.",
     description:
       "Tech-: Ionic, React, Capacitor, Express.js, Firebase Realtime DB, MongoDB, AWS S3, Elastic Beanstalk, Stripe, NowPayments, BunnyCDN",
     icon: React.createElement(FaReact),
