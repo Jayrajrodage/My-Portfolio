@@ -48,6 +48,16 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "04/2023 - 04/2025 (2 years)",
   },
+  {
+    title: "Full-Stack Engineer",
+    location: "OneTap (Remote)",
+    Workp1:
+      " Building and maintaining Attendance App to automate check-in and check-out processes.",
+    description:
+      "Tech-: React, React Native, Express.js, MongoDB, Digital Ocean, CI/CD, Stripe.",
+    icon: React.createElement(FaReact),
+    date: "08/2025 - present",
+  },
 ] as const;
 
 export const projectsData = [
